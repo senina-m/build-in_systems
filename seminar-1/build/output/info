@@ -1,0 +1,209 @@
+-------- .text --------
+Virtual Size:		0x71c8
+Virtual Address:		0x1000
+Size Of Raw Data:		0x7200
+Pointer To Raw Data:		0x600
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x60500060
+
+-------- .data --------
+Virtual Size:		0x110
+Virtual Address:		0x9000
+Size Of Raw Data:		0x200
+Pointer To Raw Data:		0x7800
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0500040
+
+-------- .rdata --------
+Virtual Size:		0xfc0
+Virtual Address:		0xa000
+Size Of Raw Data:		0x1000
+Pointer To Raw Data:		0x7a00
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x40600040
+
+-------- /4 --------
+Virtual Size:		0x4
+Virtual Address:		0xb000
+Size Of Raw Data:		0x200
+Pointer To Raw Data:		0x8a00
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0300040
+
+-------- .pdata --------
+Virtual Size:		0x4d4
+Virtual Address:		0xc000
+Size Of Raw Data:		0x600
+Pointer To Raw Data:		0x8c00
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x40300040
+
+-------- .xdata --------
+Virtual Size:		0x48c
+Virtual Address:		0xd000
+Size Of Raw Data:		0x600
+Pointer To Raw Data:		0x9200
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x40300040
+
+-------- .bss --------
+Virtual Size:		0xc00
+Virtual Address:		0xe000
+Size Of Raw Data:		0x0
+Pointer To Raw Data:		0x0
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0600080
+
+-------- .idata --------
+Virtual Size:		0x894
+Virtual Address:		0xf000
+Size Of Raw Data:		0xa00
+Pointer To Raw Data:		0x9800
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0300040
+
+-------- .CRT --------
+Virtual Size:		0x68
+Virtual Address:		0x10000
+Size Of Raw Data:		0x200
+Pointer To Raw Data:		0xa200
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0400040
+
+-------- .tls --------
+Virtual Size:		0x10
+Virtual Address:		0x11000
+Size Of Raw Data:		0x200
+Pointer To Raw Data:		0xa400
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0xc0400040
+
+-------- .reloc --------
+Virtual Size:		0x8c
+Virtual Address:		0x12000
+Size Of Raw Data:		0x200
+Pointer To Raw Data:		0xa600
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42300040
+
+-------- /14 --------
+Virtual Size:		0x6d0
+Virtual Address:		0x13000
+Size Of Raw Data:		0x800
+Pointer To Raw Data:		0xa800
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42500040
+
+-------- /29 --------
+Virtual Size:		0x13d77
+Virtual Address:		0x14000
+Size Of Raw Data:		0x13e00
+Pointer To Raw Data:		0xb000
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
+-------- /41 --------
+Virtual Size:		0x3326
+Virtual Address:		0x28000
+Size Of Raw Data:		0x3400
+Pointer To Raw Data:		0x1ee00
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
+-------- /55 --------
+Virtual Size:		0x7a3d
+Virtual Address:		0x2c000
+Size Of Raw Data:		0x7c00
+Pointer To Raw Data:		0x22200
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
+-------- /67 --------
+Virtual Size:		0x2238
+Virtual Address:		0x34000
+Size Of Raw Data:		0x2400
+Pointer To Raw Data:		0x29e00
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42400040
+
+-------- /80 --------
+Virtual Size:		0x414
+Virtual Address:		0x37000
+Size Of Raw Data:		0x600
+Pointer To Raw Data:		0x2c200
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
+-------- /91 --------
+Virtual Size:		0x11ead
+Virtual Address:		0x38000
+Size Of Raw Data:		0x12000
+Pointer To Raw Data:		0x2c800
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
+-------- /102 --------
+Virtual Size:		0x1200
+Virtual Address:		0x4a000
+Size Of Raw Data:		0x1200
+Pointer To Raw Data:		0x3e800
+Pointer To Relocations:		0x0
+Pointer To Line Numbers:		0x0
+Number Of Relocations:		0x0
+Number Of Line Numbers:		0x0
+Characteristics:		0x42100040
+
