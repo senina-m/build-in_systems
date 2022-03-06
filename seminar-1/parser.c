@@ -18,6 +18,10 @@ void save_section_code(FILE* file, DWORD size_of_data, byte* pointer){
 	fwrite(pointer, size_of_data, 1, file);
 }
 
+void save_entry_point(FILE* file, DWORD adress_of_entery_point){
+	fprintf(file, "Entry point:\t\t0x%x\n", adress_of_entery_point);
+}
+
 void save_section_info(FILE* file, PIMAGE_SECTION_HEADER sectionHeader){
 	fprintf(file, "-------- %s --------\n", sectionHeader->Name);
 	fprintf(file, "Virtual Size:\t\t0x%x\n", sectionHeader->Misc.VirtualSize);
@@ -44,7 +48,7 @@ int main(int argc, char* argv[]){
     PIMAGE_NT_HEADERS peHeader;
     PIMAGE_SECTION_HEADER sectionHeader;
 
-    hFile = CreateFileA(argv[1],GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,0);
+    hFile = CreateFile(argv[1],GENERIC_READ,FILE_SHARE_READ,NULL,OPEN_EXISTING,FILE_ATTRIBUTE_NORMAL,0);
 
     if(hFile==INVALID_HANDLE_VALUE){
         printf("\n CreateFile failed \n");
@@ -58,7 +62,6 @@ int main(int argc, char* argv[]){
         CloseHandle(hFile);
         return 1;
     }
-
     lpFileBase = MapViewOfFile(hFileMapping,FILE_MAP_READ,0,0,0);
 
     if(lpFileBase==0){
@@ -80,6 +83,9 @@ int main(int argc, char* argv[]){
             //go to first section
             sectionHeader = IMAGE_FIRST_SECTION(peHeader);
             UINT number_of_sections = peHeader->FileHeader.NumberOfSections;
+
+
+            save_entry_point(info_file, peHeader->OptionalHeader.AddressOfEntryPoint);
 
             //No of sections
             printf("\n No of sections : %d \n", number_of_sections);
